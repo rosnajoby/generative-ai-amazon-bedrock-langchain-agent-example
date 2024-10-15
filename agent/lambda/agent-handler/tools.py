@@ -69,6 +69,8 @@ class Tools:
 
         Format your response for enhanced human readability.
 
+        only give answer from the source.
+
         At the end of your response, include the relevant sources if information from specific sources was used in your response. Use the following format for each of the sources used: [Source #: Source Title - Source Link].
 
         Using the following context, answer the following question to the best of your ability in a detailed way. Do not include information that is not relevant to the question, and only provide information based on the context provided without making assumptions. 
