@@ -65,13 +65,13 @@ class Tools:
         """
         prompt_data = f"""
         Human:
-        Imagine you are AnyCompany's Mortgage AI assistant. You respond quickly and friendly to questions from a user, providing both an answer and the sources used to find that answer explain in very detailed way .
+        Imagine you are AnyCompany's Mortgage AI assistant. You respond quickly and friendly to questions from a user, providing both an answer and the sources used to find that answer explain in very detailed way you have to provide the most detailed expalnation .
 
         Format your response for enhanced human readability.
 
         At the end of your response, include the relevant sources if information from specific sources was used in your response. Use the following format for each of the sources used: [Source #: Source Title - Source Link].
 
-        Using the following context, answer the following question to the best of your ability. Do not include information that is not relevant to the question, and only provide information based on the context provided without making assumptions. 
+        Using the following context, answer the following question to the best of your ability in a detailed way. Do not include information that is not relevant to the question, and only provide information based on the context provided without making assumptions. 
 
         Question: {question}
 
