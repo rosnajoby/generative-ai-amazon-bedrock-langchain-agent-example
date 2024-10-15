@@ -67,33 +67,7 @@ def elicit_intent(intent_request, session_attributes, message):
                 'type': 'ElicitIntent'
             },
             'sessionAttributes': session_attributes
-        },
-        'messages': [
-            {
-                'contentType': 'PlainText', 
-                'content': message
-            },
-            {
-                'contentType': 'ImageResponseCard',
-                'imageResponseCard': {
-                    "buttons": [
-                        {
-                            "text": "Mortgage Application",
-                            "value": "Mortgage Application"
-                        },
-                        {
-                            "text": "Mortgage Calculator",
-                            "value": "Mortgage Calculator"
-                        },
-                        {
-                            "text": "Ask GenAI",
-                            "value": "What kind of questions can the Assistant answer?"
-                        }
-                    ],
-                    "title": "How can I help you?"
-                }
-            }     
-        ]
+        }
     }
 
     return response
