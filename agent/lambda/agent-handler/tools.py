@@ -85,7 +85,7 @@ class Tools:
         # Formatting the prompt as a JSON string
         json_prompt = json.dumps({
             "anthropic_version": "bedrock-2023-05-31",
-            "max_tokens": 10000,
+            "max_tokens": 20000,
             "temperature": 0.5,
             "messages": [
                 {
