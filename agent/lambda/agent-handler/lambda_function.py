@@ -67,7 +67,13 @@ def elicit_intent(intent_request, session_attributes, message):
                 'type': 'ElicitIntent'
             },
             'sessionAttributes': session_attributes
-        }
+        },
+        'messages': [
+            {
+                'contentType': 'PlainText', 
+                'content': message
+            }    
+        ]
     }
 
     return response
